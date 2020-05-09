@@ -1,0 +1,25 @@
+html,
+body {
+  height: 100%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border: 3px solid firebrick;
+  padding: 2em;
+  text-align: center;
+  font-size: 2em;
+}
