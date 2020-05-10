@@ -22,4 +22,10 @@ td {
   padding: 2em;
   text-align: center;
   font-size: 2em;
+  transition: all .5s;
+  user-select: none;
+}
+
+td:hover {
+  cursor: pointer;
 }
